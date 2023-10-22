@@ -6,5 +6,5 @@ build:
 run: build
 	@./bin/main
 
-test: build
+test:
 	@go test -v ./...
